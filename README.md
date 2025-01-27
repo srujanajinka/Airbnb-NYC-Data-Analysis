@@ -1,20 +1,27 @@
 **Airbnb NYC Data Analysis (2019)**
+
 Exploring Airbnb listings in NYC using Python, Pandas, Matplotlib, and Seaborn.
 
 **Project Overview**
+
 This project analyzes Airbnb listings in New York City (NYC) using exploratory data analysis (EDA) and data visualization techniques.
 The goal is to uncover pricing trends, neighborhood insights, and key business recommendations for Airbnb hosts and decision-makers.
+
 **Dataset Details**
+
 Source: Airbnb NYC 2019 Dataset
 Size: ~49,000 Airbnb listings
 Features: Price, location, room type, number of reviews, availability, etc.
+
 **Tools & Libraries Used**
+
 Python 
 Pandas (for data wrangling)
 NumPy (for numerical operations)
 Matplotlib & Seaborn (for data visualization)
 Google Colab (for running the notebook)
 **📊 Data Analysis & Visualizations**
+
 Here are key visualizations and insights from the dataset:
 
 1️⃣ Price Distribution
@@ -78,11 +85,14 @@ plt.title('Correlation Heatmap of Numerical Features', fontsize=16)
 plt.show()
 
 📈 **Business Insights**
+
 Pricing Trends: Most listings are reasonably priced, but some extreme outliers exist.
 Popular Room Types: Entire homes/apartments dominate the market.
 Location-Based Pricing: Manhattan has the highest prices, Bronx the lowest.
 Demand & Reviews: Cheaper listings get more reviews, indicating higher demand.
+
 📌 **Recommendation:**
+
 
 Hosts should competitively price listings based on room type & location.
 Airbnb can optimize marketing strategies for the most popular areas.
@@ -90,6 +100,7 @@ Outlier prices should be analyzed further to improve pricing models.
 
 
 📌 **Future Improvements**
+
 ✅ Feature engineering for better predictions
 ✅ Applying machine learning models for price prediction
 ✅ Interactive dashboard using Power BI/Tableau
